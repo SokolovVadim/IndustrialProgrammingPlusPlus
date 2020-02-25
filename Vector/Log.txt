@@ -1,0 +1,435 @@
+Constructor was called: __thiscall Vector<double>::Vector(void)
+Constructor was called: __thiscall Vector<int>::Vector(void)
+Constructor was called: __thiscall Vector<char>::Vector(void)
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 0
+Capacity	 = 10
+
+*****************************DUMP*END******************************
+
+PUSH: 12.1212
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 1
+Capacity	 = 10
+*	data_[0] = 12.1212
+
+*****************************DUMP*END******************************
+
+PUSH: 124135
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 0
+Capacity	 = 10
+
+*****************************DUMP*END******************************
+
+PUSH: 0
+Operator[] was called
+0
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 1
+Capacity	 = 10
+*	data_[0] = 0
+
+*****************************DUMP*END******************************
+
+PUSH: 1
+Operator[] was called
+1
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 2
+Capacity	 = 10
+*	data_[0] = 0
+*	data_[1] = 1
+
+*****************************DUMP*END******************************
+
+PUSH: 2
+Operator[] was called
+2
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 3
+Capacity	 = 10
+*	data_[0] = 0
+*	data_[1] = 1
+*	data_[2] = 2
+
+*****************************DUMP*END******************************
+
+PUSH: 3
+Operator[] was called
+3
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 4
+Capacity	 = 10
+*	data_[0] = 0
+*	data_[1] = 1
+*	data_[2] = 2
+*	data_[3] = 3
+
+*****************************DUMP*END******************************
+
+PUSH: 4
+Operator[] was called
+4
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 0
+Capacity	 = 10
+
+*****************************DUMP*END******************************
+
+PUSH: v
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 1
+Capacity	 = 10
+*	data_[0] = v
+
+*****************************DUMP*END******************************
+
+PUSH: a
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 2
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+
+*****************************DUMP*END******************************
+
+PUSH: d
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 3
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+*	data_[2] = d
+
+*****************************DUMP*END******************************
+
+PUSH: i
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 4
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+*	data_[2] = d
+*	data_[3] = i
+
+*****************************DUMP*END******************************
+
+PUSH: m
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 5
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+*	data_[2] = d
+*	data_[3] = i
+*	data_[4] = m
+
+*****************************DUMP*END******************************
+
+POP: m
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 4
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+*	data_[2] = d
+*	data_[3] = i
+
+*****************************DUMP*END******************************
+
+POP: i
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 3
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+*	data_[2] = d
+
+*****************************DUMP*END******************************
+
+POP: d
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 2
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = a
+
+*****************************DUMP*END******************************
+
+POP: a
+Vector copy constructor was called: __thiscall Vector<int>::Vector(const class Vector<int> &)
+They are similar!
+Vector copy constructor was called: __thiscall Vector<double>::Vector(const class Vector<double> &)
+Vector copy constructor was called: __thiscall Vector<char>::Vector(const class Vector<char> &)
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 1
+Capacity	 = 10
+*	data_[0] = v
+
+*****************************DUMP*END******************************
+
+PUSH: U
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 2
+Capacity	 = 10
+*	data_[0] = v
+*	data_[1] = U
+
+*****************************DUMP*END******************************
+
+POP: U
+Vector copy constructor was called: __thiscall Vector<double>::Vector(const class Vector<double> &)
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<char>::Dump(void)
+Size		 = 1
+Capacity	 = 10
+*	data_[0] = v
+
+*****************************DUMP*END******************************
+
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 2
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+
+*****************************DUMP*END******************************
+
+PUSH: 12.121
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 3
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+
+*****************************DUMP*END******************************
+
+PUSH: 18.743
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 4
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+
+*****************************DUMP*END******************************
+
+PUSH: 87652.1
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 5
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+
+*****************************DUMP*END******************************
+
+PUSH: 1432.25
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 6
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+*	data_[5] = 1432.25
+
+*****************************DUMP*END******************************
+
+PUSH: 99382.1
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 5
+Capacity	 = 10
+*	data_[0] = 0
+*	data_[1] = 1
+*	data_[2] = 2
+*	data_[3] = 3
+*	data_[4] = 4
+
+*****************************DUMP*END******************************
+
+PUSH: 1234
+Vector copy constructor was called: __thiscall Vector<int>::Vector(const class Vector<int> &)
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<int>::Dump(void)
+Size		 = 6
+Capacity	 = 10
+*	data_[0] = 0
+*	data_[1] = 1
+*	data_[2] = 2
+*	data_[3] = 3
+*	data_[4] = 4
+*	data_[5] = 1234
+
+*****************************DUMP*END******************************
+
+PUSH: 1234567
+Vector copy constructor was called: __thiscall Vector<double>::Vector(const class Vector<double> &)
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 7
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+*	data_[5] = 1432.25
+*	data_[6] = 99382.1
+
+*****************************DUMP*END******************************
+
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 7
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+*	data_[5] = 1432.25
+*	data_[6] = 99382.1
+
+*****************************DUMP*END******************************
+
+POP: 99382.1
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 6
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+*	data_[5] = 1432.25
+
+*****************************DUMP*END******************************
+
+POP: 1432.25
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 5
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+*	data_[4] = 87652.1
+
+*****************************DUMP*END******************************
+
+POP: 87652.1
+
+*****************************DUMP*START****************************
+
+FUNC: bool __thiscall Vector<double>::Dump(void)
+Size		 = 4
+Capacity	 = 10
+*	data_[0] = 12.1212
+*	data_[1] = 124135
+*	data_[2] = 12.121
+*	data_[3] = 18.743
+
+*****************************DUMP*END******************************
+
+Vector destructor was called: __thiscall Vector<double>::~Vector(void)
+Vector destructor was called: __thiscall Vector<int>::~Vector(void)
+Vector destructor was called: __thiscall Vector<double>::~Vector(void)
+Vector destructor was called: __thiscall Vector<char>::~Vector(void)
+Vector destructor was called: __thiscall Vector<double>::~Vector(void)
+Vector destructor was called: __thiscall Vector<int>::~Vector(void)
+Vector destructor was called: __thiscall Vector<char>::~Vector(void)
+Vector destructor was called: __thiscall Vector<int>::~Vector(void)
+Vector destructor was called: __thiscall Vector<double>::~Vector(void)
